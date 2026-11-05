@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#172d40">
+  <title>WheeBuy spreadsheet: Größen, QC-Fotos &amp; Auswahlhilfe</title>
+  <meta name="description" content="WheeBuy spreadsheet verständlich erklärt: Sneaker, Streetwear und Accessoires gezielt vergleichen. Mit Größencheck, Bildprüfung, FAQ und Kategorien bei CAFANS.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="WheeBuy spreadsheet: Erst vergleichen, dann auswählen">
+  <meta property="og:description" content="Ein unabhängiger deutscher Wegweiser für Größen, Produktfotos und eine übersichtliche Auswahl. Kategorien direkt bei CAFANS entdecken.">
+  <meta property="og:image" content="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg">
+  <meta property="og:image:alt" content="Weißer Nike Air Force 1 ’07 in der Seitenansicht">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WheeBuy spreadsheet: Größen, QC-Fotos &amp; Auswahlhilfe">
+  <meta name="twitter:description" content="Sneaker, Streetwear und Accessoires mit einer klaren Prüfliste vergleichen.">
+  <meta name="twitter:image" content="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg">
+  <link rel="preconnect" href="https://nikeclprod.vtexassets.com" crossorigin>
+
+  <!--
+    Datei: index.html
+    Nach Veröffentlichung eine selbstreferenzierende Canonical-URL
+    mit der tatsächlichen Seitenadresse ergänzen.
+
+    Recherche: 05.11.2026.
+    Google war nicht direkt abrufbar; keine bestätigte Google-Top-10.
+    Zehn über die Websuche gefundene Domains; eigene Zusammenfassungen
+    sichtbarer Such- und Seiteninhalte:
+
+    1. sopel.fit/wheebuy-spreadsheet
+       Titelthema: WheeBuy spreadsheet
+       Begriffe: Kategorien, Finds, Produktlinks.
+       Schwerpunkt: schneller Kategorieeinstieg.
+
+    2. whee-buy.net
+       Titelthema: WheeBuy Spreadsheet – Curated China Product Finds
+       Begriffe: Produktsuche, Auswahl, Größen.
+       Schwerpunkt: Recherche vor dem Öffnen eines Eintrags.
+
+    3. qcradar.com/wheebuy-spreadsheet
+       Titelthema: Wheebuy Spreadsheet 2026
+       Begriffe: QC, Wechselkurs, Kosten.
+       Schwerpunkt: Gesamtvergleich.
+       Nur Suchauszug ausgewertet; Direktabruf gesperrt.
+
+    4. one-to-oneyupoo.com/spreadsheets/wheebuy/
+       Titelthema: WheeBuy Spreadsheet & Current Product Finds
+       Begriffe: Katalog, Unabhängigkeit, Bedingungen.
+       Schwerpunkt: Produktdaten und Plattformbedingungen unterscheiden.
+
+    5. usfansyupoo.com/agents/wheebuy/
+       Titelthema: WheeBuy Spreadsheet & Product Finds
+       Begriffe: Artikel-ID, Varianten, Produktfotos.
+       Schwerpunkt: den passenden Eintrag wiedererkennen.
+
+    6. wheespreadsheet.com
+       Titelthema: Wheebuy Spreadsheet – Beginner Guide
+       Begriffe: Einstieg, QC, Versand.
+       Schwerpunkt: verständlicher Ablauf für Einsteiger.
+
+    7. grails.fit/wheebuy-spreadsheet
+       Titelthema: WheeBuy Spreadsheet
+       Begriffe: Marken, Bilder, QC.
+       Schwerpunkt: Kategorien und Marken als Suchzugang.
+
+    8. mixfittio.com/en/spreadsheet/wheebuy
+       Titelthema: Wheebuy Spreadsheet
+       Begriffe: Kostenvergleich, Varianten, Versand.
+       Schwerpunkt: Gesamtkosten.
+       Nur Suchauszug ausgewertet; Direktabruf gesperrt.
+
+    9. wheebuyspreadsheet.com
+       Titelthema: Wheebuy Spreadsheet & Best Finds
+       Begriffe: Kategorien, Größen, Bildvergleich.
+       Schwerpunkt: ähnliche Stücke gegenüberstellen.
+
+    10. wheebuysheet.com
+        Titelthema: Wheebuy Spreadsheet
+        Begriffe: Streetwear, Sneaker, Produktlisten.
+        Schwerpunkt: Orientierung nach Produktart.
+
+    Übernommen werden Themen, keine fremden Texte, Mengen-,
+    Prüf-, Rabatt- oder Partnerschaftsversprechen.
+
+    Vier Nebenbegriffe:
+    WheeBuy Finds; Sneaker-Größenvergleich;
+    QC-Fotos prüfen; Streetwear-Auswahl.
+
+    Die Longtail-Themen sind als konkrete Fragen und Prüfschritte
+    in den sichtbaren Text integriert.
+  -->
+
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f7f3e9;
+      --ink: #172d40;
+      --muted: #4d5d64;
+      --line: #d5d5c9;
+      --red: #a23d29;
+      --white: #fffdf8;
+      --green: #e6ecdf;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 4px;
+    }
+
+    a:hover {
+      color: var(--red);
+    }
+
+    a:focus-visible,
+    summary:focus-visible {
+      outline: 3px solid var(--red);
+      outline-offset: 5px;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    figure {
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.13;
+      letter-spacing: -.035em;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 5.5vw, 5.3rem);
+      font-weight: 780;
+      max-width: 850px;
+    }
+
+    h2 {
+      font-size: clamp(1.8rem, 3.5vw, 3rem);
+    }
+
+    h3 {
+      font-size: 1.3rem;
+    }
+
+    p + p {
+      margin-top: 1rem;
+    }
+
+    .wrap {
+      width: min(var(--max), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding-block: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      font-size: 1.4rem;
+      font-weight: 850;
+      letter-spacing: -.06em;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--red);
+    }
+
+    .top small {
+      color: var(--muted);
+      font-size: .8rem;
+    }
+
+    .top > a:last-child {
+      font-size: .85rem;
+      font-weight: 700;
+    }
+
+    .eyebrow {
+      display: block;
+      text-transform: uppercase;
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      color: var(--red);
+      margin-bottom: 16px;
+    }
+
+    .intro {
+      padding-top: 42px;
+    }
+
+    .intro h1 em {
+      font-style: normal;
+      color: var(--red);
+    }
+
+    .lead {
+      max-width: 730px;
+      font-size: 1.13rem;
+      color: var(--muted);
+      margin-top: 22px;
+    }
+
+    .categories {
+      padding-block: 28px 36px;
+    }
+
+    .categories h2 {
+      font-size: .78rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      border-top: 1px solid var(--ink);
+      border-left: 1px solid var(--line);
+    }
+
+    .cat-grid a {
+      padding: 15px 14px;
+      min-height: 78px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: .91rem;
+      font-weight: 750;
+      background: var(--white);
+    }
+
+    .cat-grid a:hover {
+      background: var(--green);
+    }
+
+    .cat-grid small {
+      font-size: .72rem;
+      font-weight: 450;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    .feature {
+      display: grid;
+      grid-template-columns: 1.45fr 1fr;
+      background: var(--ink);
+      color: var(--paper);
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: relative;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      min-height: 360px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      aspect-ratio: 1.35;
+      object-fit: contain;
+    }
+
+    .hero-image figcaption {
+      position: absolute;
+      bottom: 14px;
+      left: 18px;
+      color: var(--muted);
+      background: #ffffffed;
+      padding: 5px 10px;
+      font-size: .72rem;
+    }
+
+    .feature-copy {
+      padding: clamp(25px, 4vw, 48px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .feature-copy .eyebrow {
+      color: #efbba2;
+    }
+
+    .feature-copy h2 {
+      font-size: clamp(1.7rem, 3vw, 2.6rem);
+    }
+
+    .feature-copy p {
+      color: #e1e4e3;
+      margin-block: 20px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      align-self: flex-start;
+      padding: 13px 20px;
+      background: var(--red);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 750;
+      font-size: .9rem;
+      border: 1px solid transparent;
+    }
+
+    .button:hover {
+      background: #fff;
+      color: var(--ink);
+    }
+
+    .note {
+      font-size: .78rem;
+      color: var(--muted);
+    }
+
+    .feature-note {
+      margin-top: 12px;
+    }
+
+    .section {
+      padding-block: 64px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 28px;
+      margin-bottom: 28px;
+    }
+
+    .section-head p {
+      max-width: 420px;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    .topic-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+    }
+
+    .topic {
+      border-top: 3px solid var(--red);
+      padding-top: 18px;
+    }
+
+    .topic .number {
+      font-size: .76rem;
+      color: var(--muted);
+      display: block;
+      margin-bottom: 14px;
+    }
+
+    .topic p {
+      font-size: .92rem;
+      margin-top: 13px;
+      color: var(--muted);
+    }
+
+    .editorial {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 26px;
+    }
+
+    .visual {
+      background: var(--white);
+      border: 1px solid var(--line);
+    }
+
+    .visual img {
+      width: 100%;
+      aspect-ratio: 1.4;
+      object-fit: contain;
+      background: #fafafa;
+    }
+
+    .visual figcaption {
+      padding: 20px 24px;
+    }
+
+    .visual figcaption strong {
+      display: block;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    .visual figcaption p {
+      font-size: .9rem;
+      color: var(--muted);
+    }
+
+    .visual figcaption p strong {
+      display: inline;
+      font-size: inherit;
+      margin: 0;
+    }
+
+    .journal {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 50px;
+    }
+
+    .journal aside p {
+      font-size: .88rem;
+      color: var(--muted);
+      margin-top: 18px;
+    }
+
+    .articles article + article {
+      border-top: 1px solid var(--line);
+      margin-top: 30px;
+      padding-top: 30px;
+    }
+
+    .articles h3 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+    }
+
+    .articles p,
+    .articles li {
+      color: var(--muted);
+      font-size: .96rem;
+    }
+
+    .articles ul {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+
+    .label {
+      display: block;
+      font-size: .72rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 12px;
+    }
+
+    .table-scroll {
+      overflow: auto;
+      margin-top: 22px;
+    }
+
+    table {
+      border-collapse: collapse;
+      min-width: 580px;
+      width: 100%;
+      font-size: .87rem;
+      text-align: left;
+    }
+
+    caption {
+      text-align: left;
+      padding-bottom: 12px;
+    }
+
+    th,
+    td {
+      padding: 15px 16px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--green);
+      font-weight: 750;
+    }
+
+    td {
+      color: var(--muted);
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 50px;
+    }
+
+    details {
+      border-top: 1px solid var(--line);
+      padding-block: 18px;
+    }
+
+    details:last-child {
+      border-bottom: 1px solid var(--line);
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5;
+      padding-right: 12px;
+    }
+
+    details p {
+      margin-top: 14px;
+      font-size: .94rem;
+      color: var(--muted);
+    }
+
+    .closing {
+      background: var(--green);
+      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+      gap: 25px;
+      align-items: center;
+      margin-block: 38px;
+    }
+
+    .closing h2 {
+      font-size: 1.8rem;
+    }
+
+    .closing p {
+      color: var(--muted);
+      margin-top: 10px;
+      max-width: 650px;
+      font-size: .92rem;
+    }
+
+    .closing .button {
+      flex-shrink: 0;
+      align-self: center;
+    }
+
+    .footer {
+      padding-block: 18px 35px;
+      color: var(--muted);
+      font-size: .76rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .footer p {
+      max-width: 780px;
+    }
+
+    .footer a {
+      white-space: nowrap;
+    }
+
+    @media (min-width: 900px) {
+      .later {
+        content-visibility: auto;
+        contain-intrinsic-size: auto 650px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .cat-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .feature {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image {
+        min-height: 0;
+      }
+
+      .hero-image img {
+        aspect-ratio: 1.6;
+      }
+
+      .topic-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .section-head p {
+        margin-top: 20px;
+      }
+
+      .journal,
+      .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .section {
+        padding-block: 42px;
+      }
+
+      .closing {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .closing .button {
+        align-self: start;
+      }
+
+      .footer {
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .top small {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .wrap {
+        width: calc(100% - 28px);
+      }
+
+      .intro {
+        padding-top: 30px;
+      }
+
+      .lead {
+        font-size: 1rem;
+      }
+
+      .topic-grid,
+      .editorial {
+        grid-template-columns: 1fr;
+      }
+
+      .feature-copy {
+        padding: 26px;
+      }
+
+      .cat-grid a {
+        font-size: .84rem;
+        padding: 13px 10px;
+      }
+
+      .closing {
+        padding: 24px;
+      }
+
+      .top {
+        padding-block: 16px;
+      }
+
+      .top > a:last-child {
+        font-size: .76rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "WheeBuy spreadsheet: Größen, QC-Fotos & Auswahlhilfe",
+    "description": "Unabhängiger deutscher Ratgeber zum Vergleichen von Sneakern, Streetwear und Accessoires mit Kategorieverweisen zu CAFANS.",
+    "inLanguage": "de",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "WheeBuy spreadsheet"
+      },
+      {
+        "@type": "Thing",
+        "name": "Sneaker-Größenvergleich"
+      },
+      {
+        "@type": "Thing",
+        "name": "QC-Fotos prüfen"
+      },
+      {
+        "@type": "Thing",
+        "name": "Streetwear-Auswahl"
+      }
+    ],
+    "hasPart": [
+      {
+        "@type": "Article",
+        "headline": "Sneaker-Größe bestimmen: Maße statt Gewohnheit",
+        "inLanguage": "de",
+        "description": "Fußlänge, Größentabelle, Innenlänge und Schuhform vor der Auswahl vergleichen."
+      },
+      {
+        "@type": "Article",
+        "headline": "QC-Fotos prüfen: Was ein Bild wirklich zeigt",
+        "inLanguage": "de",
+        "description": "Variante, Perspektive, Verarbeitung und fehlende Bildinformationen systematisch prüfen."
+      },
+      {
+        "@type": "Article",
+        "headline": "Eine kleine Auswahl mit vollständigen Kosten",
+        "inLanguage": "de",
+        "description": "Produktpreis, mögliche Zusatzkosten und ungeklärte Angaben in einer Vergleichsliste festhalten."
+      }
+    ],
+    "mainEntity": {
+      "@type": "FAQPage",
+      "inLanguage": "de",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was ist ein WheeBuy spreadsheet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Damit ist meist eine Sammlung von Produktverweisen gemeint, die zur Recherche rund um WheeBuy verwendet wird. Die konkrete Liste kann von unabhängigen Herausgebern stammen; ein Eintrag belegt weder Verfügbarkeit noch Qualität oder Echtheit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wohin führen die Links auf dieser Seite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die zehn Kategorieverweise führen zu den jeweils benannten Kategorien auf cafans.com. Alle weiteren anklickbaren Verweise führen zur Startseite https://www.cafans.com. Diese Seite bietet keinen eigenen Checkout."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie finde ich passende Sneaker und Hoodies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vergleiche bei Sneakern die Fußlänge mit der modellspezifischen Größentabelle. Miss bei Hoodies ein gut passendes Kleidungsstück und vergleiche Brustweite, Länge und Schultern. Ein Größenbuchstabe allein reicht nicht."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Beweisen QC-Fotos die Echtheit eines Produkts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. QC-Fotos können sichtbare Details und offensichtliche Abweichungen zeigen. Sie beweisen weder Echtheit noch Haltbarkeit oder die Identität des später gelieferten Artikels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sind Preise, Versandzeiten oder Angebote garantiert?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Diese Seite nennt keine verbindlichen Preise, Rabatte oder Lieferfristen. Prüfe die gewünschte Variante und die aktuellen Bedingungen beim jeweiligen Anbieter, bevor du eine Bestellung abschließt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist dieser Ratgeber offiziell mit WheeBuy oder den Marken verbunden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Dies ist ein unabhängiger Ratgeber ohne behauptete offizielle Verbindung zu WheeBuy, Nike, Gucci oder Dior. Markenabbildungen dienen als visuelle Beispiele und bestätigen kein konkretes Angebot bei CAFANS."
+          }
+        }
+      ]
+    }
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/zxoln/">
+</head>
+
+<body>
+  <header class="wrap top">
+    <a class="brand" href="https://www.cafans.com" aria-label="CAFANS Startseite">
+      AUSWAHL<span>.</span>
+    </a>
+    <small>Ein unabhängiges Journal für bewusste Produktsuche</small>
+    <a href="https://www.cafans.com">CAFANS entdecken ↗</a>
+  </header>
+
+  <main class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <span class="eyebrow">Produktsuche / Deutsch / Auswahlhilfe</span>
+      <h1 id="page-title">
+        WheeBuy spreadsheet.<br>
+        <em>Ein klarer Blick</em><br>
+        auf deine Auswahl.
+      </h1>
+      <p class="lead">
+        Sneaker, Streetwear und Accessoires finden ist der Anfang.
+        Dieser Ratgeber hilft dir, Maße, Bilder und offene Fragen zu
+        vergleichen. Die Kategorien führen direkt zu CAFANS.
+      </p>
+    </section>
+
+    <nav class="categories" aria-label="Produktkategorien bei CAFANS">
+      <h2>Direkt zur passenden Kategorie</h2>
+
+      <div class="cat-grid">
+        <a href="https://cafans.com/category-911-Shoes.html">
+          Schuhe
+          <small>Sneaker &amp; weitere Schuhe</small>
+        </a>
+        <a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">
+          Hoodies &amp; Pullover
+          <small>Schnitt &amp; Schichten</small>
+        </a>
+        <a href="https://cafans.com/category-913-T-Shirts.html">
+          T-Shirts
+          <small>Passform &amp; Stoff</small>
+        </a>
+        <a href="https://cafans.com/category-914-Jackets.html">
+          Jacken
+          <small>Länge &amp; Ausstattung</small>
+        </a>
+        <a href="https://cafans.com/category-915-Pants%2FShorts.html">
+          Hosen &amp; Shorts
+          <small>Bund &amp; Beinlänge</small>
+        </a>
+        <a href="https://cafans.com/category-916-Headwear.html">
+          Kopfbedeckungen
+          <small>Umfang &amp; Verschluss</small>
+        </a>
+        <a href="https://cafans.com/category-917-Sets.html">
+          Sets
+          <small>Oberteil &amp; Unterteil</small>
+        </a>
+        <a href="https://cafans.com/category-918-underwear%2Funderpants.html">
+          Unterwäsche
+          <small>Material &amp; Pflege</small>
+        </a>
+        <a href="https://cafans.com/category-919-Jersey.html">
+          Trikots
+          <small>Maße &amp; Details</small>
+        </a>
+        <a href="https://cafans.com/category-920-Accessories.html">
+          Accessoires
+          <small>Schmuck &amp; Ergänzungen</small>
+        </a>
+      </div>
+    </nav>
+
+    <section class="feature" aria-labelledby="feature-title">
+      <figure class="hero-image">
+        <img
+          src="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg"
+          width="1000"
+          height="740"
+          fetchpriority="high"
+          loading="eager"
+          decoding="async"
+          alt="Weißer Nike Air Force 1 ’07 mit weißem Swoosh und flacher Sohle in der Seitenansicht"
+        >
+        <figcaption>Visuelles Beispiel: Nike Air Force 1 ’07</figcaption>
+      </figure>
+
+      <div class="feature-copy">
+        <span class="eyebrow">Die kurze Antwort</span>
+        <h2 id="feature-title">
+          Eine Liste gibt Orientierung. Die Details entscheiden.
+        </h2>
+        <p>
+          Ein WheeBuy spreadsheet bündelt Produktverweise für die Recherche.
+          Prüfe bei jedem interessanten Eintrag die genaue Variante,
+          verfügbare Maße und aussagekräftige Bilder. Ein Listenplatz
+          ersetzt diese Prüfung nicht.
+        </p>
+        <a class="button" href="https://www.cafans.com">
+          Produkte bei CAFANS ansehen ↗
+        </a>
+      </div>
+    </section>
+
+    <p class="note feature-note">
+      Die Markenbilder illustrieren den Ratgeber. Sie sind keine Bestätigung
+      eines verfügbaren, identischen oder authentischen Angebots bei CAFANS.
+    </p>
+
+    <section class="section" aria-labelledby="topics-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Vier hilfreiche Schwerpunkte</span>
+          <h2 id="topics-title">Weniger raten.<br>Besser vergleichen.</h2>
+        </div>
+        <p>
+          Beginne mit dem, was du tatsächlich brauchst. Eine kleine Auswahl
+          mit nachvollziehbaren Angaben ist leichter zu beurteilen als
+          viele ungeprüfte Treffer.
+        </p>
+      </div>
+
+      <div class="topic-grid">
+        <article class="topic">
+          <span class="number">01 / ORIENTIERUNG</span>
+          <h3>WheeBuy Finds</h3>
+          <p>
+            Für <strong>Produktlinks nach Kategorie</strong> starte bei
+            der Produktart. Wer <strong>Sneaker für den Alltag finden</strong>
+            möchte, grenzt zuerst Silhouette und Einsatzzweck ein.
+            Eine auffällige Überschrift sagt wenig über das konkrete Paar aus.
+          </p>
+        </article>
+
+        <article class="topic">
+          <span class="number">02 / PASSFORM</span>
+          <h3>Sneaker-Größenvergleich</h3>
+          <p>
+            Um die <strong>Fußlänge richtig zu messen</strong>, miss beide
+            Füße im Stehen. Danach die <strong>Größentabelle für Schuhe
+            lesen</strong> und ihre Messmethode prüfen: Fußlänge und
+            Innenlänge sind unterschiedliche Angaben.
+          </p>
+        </article>
+
+        <article class="topic">
+          <span class="number">03 / BILDER</span>
+          <h3>QC-Fotos prüfen</h3>
+          <p>
+            Wenn du <strong>Produktbilder vergleichen</strong> möchtest,
+            helfen gleiche Perspektiven. Möchtest du <strong>Nähte und
+            Verarbeitung prüfen</strong>, brauchst du Detailaufnahmen.
+            Unscharfe Bilder lassen wichtige Fragen offen.
+          </p>
+        </article>
+
+        <article class="topic">
+          <span class="number">04 / GARDEROBE</span>
+          <h3>Streetwear-Auswahl</h3>
+          <p>
+            Beim <strong>Hoodie-Größenvergleich mit Maßen</strong> dienen
+            passende Kleidungsstücke als Referenz. Um <strong>Oversize
+            und normale Passform unterscheiden</strong> zu können,
+            vergleiche Weite und Länge gemeinsam.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section later" aria-labelledby="details-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Blick auf die Details</span>
+          <h2 id="details-title">Ein gutes Bild.<br>Eine bessere Frage.</h2>
+        </div>
+        <p>
+          Bildbeispiele von Dior und Gucci zeigen unterschiedliche
+          Produktarten. Entscheidend bleibt, welche Informationen zum
+          tatsächlich ausgewählten Artikel vorliegen.
+        </p>
+      </div>
+
+      <div class="editorial">
+        <figure class="visual">
+          <img
+            src="https://assets.christiandior.com/is/image/diorprod/18E0005A0479C889_SBG_E12?wid=640&amp;hei=720&amp;qlt=75&amp;fit=fit"
+            width="640"
+            height="720"
+            loading="lazy"
+            decoding="async"
+            alt="Grauer und weißer Dior Oblique Schal mit Monogrammmuster und Fransen an einer Büste"
+          >
+          <figcaption>
+            <strong>Material braucht mehr als einen Blick.</strong>
+            <p>
+              Wer <strong>Schalmaterial und Pflege vergleichen</strong>
+              will, braucht die Materialangabe. Um <strong>Monogramm-Muster
+              auf Fotos vergleichen</strong> zu können, sollten Ausschnitt
+              und Beleuchtung ähnlich sein. Das Muster allein ist kein
+              Echtheitsnachweis.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="visual">
+          <img
+            src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg"
+            width="640"
+            height="640"
+            loading="lazy"
+            decoding="async"
+            alt="Beigebraune Gucci Baseballkappe mit GG-Muster und gebogenem Schirm"
+          >
+          <figcaption>
+            <strong>Der Verschluss gehört zur Passform.</strong>
+            <p>
+              Wenn du den <strong>Kopfumfang für eine Cap messen</strong>
+              möchtest, führe das Maßband um die spätere Sitzlinie.
+              Um eine <strong>verstellbare Kappe auswählen</strong> zu
+              können, prüfe Einstellbereich und Verschluss auf der
+              konkreten Produktseite.
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section journal later" aria-labelledby="journal-title">
+      <aside>
+        <span class="eyebrow">Das kleine Journal</span>
+        <h2 id="journal-title">Drei Artikel für deine Recherche.</h2>
+        <p>
+          Kurze Anleitungen, die du beim nächsten Vergleich direkt
+          verwenden kannst.
+        </p>
+        <p>
+          Redaktionsstand:<br>
+          <time datetime="2026-11-05">5. November 2026</time>
+        </p>
+      </aside>
+
+      <div class="articles">
+        <article>
+          <span class="label">Artikel 01 · Größen</span>
+          <h3>Sneaker-Größe bestimmen: Maße statt Gewohnheit</h3>
+          <p>
+            Die vertraute EU-Größe ist nur ein Ausgangspunkt. Um
+            <strong>Schuhgrößen zwischen Modellen vergleichen</strong>
+            zu können, brauchst du die modellspezifische Tabelle.
+            Prüfe, ob dort Körpermaße oder Produktmaße stehen.
+            Eine feste, für alle Modelle gültige Zugabe zur Fußlänge
+            lässt sich daraus nicht ableiten.
+          </p>
+          <p>
+            Auch bei Kleidung lohnt sich ein Maßband. Wenn du die
+            <strong>T-Shirt-Brustweite messen</strong> möchtest, lege
+            ein passendes Shirt flach hin und miss von Achsel zu Achsel.
+            Ein flach gemessenes Maß ist kein Umfang. Zum
+            <strong>Jackenlänge und Schulterbreite vergleichen</strong>
+            verwende auf beiden Seiten dieselben Messpunkte.
+          </p>
+          <ul>
+            <li>
+              Wenn du <strong>Hosenbund und Innenbeinlänge prüfen</strong>
+              möchtest, halte elastische und nicht elastische Maße auseinander.
+            </li>
+            <li>
+              Wenn du <strong>Trikot-Größen vor dem Kauf vergleichen</strong>
+              möchtest, verwende die Tabelle des konkreten Modells.
+            </li>
+            <li>
+              Du kannst <strong>Set-Größen getrennt kontrollieren</strong>,
+              indem du Oberteil und Unterteil einzeln beurteilst.
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <span class="label">Artikel 02 · Bildprüfung</span>
+          <h3>QC-Fotos prüfen: Was ein Bild wirklich zeigt</h3>
+          <p>
+            QC bedeutet Qualitätskontrolle. Fotos können sichtbare
+            Abweichungen zeigen, aber weder Tragekomfort noch Haltbarkeit
+            beweisen. Wenn du <strong>Farbvarianten auf Produktfotos
+            unterscheiden</strong> möchtest, gleiche zuerst Variantenname
+            und Artikelkennung ab. Kameras, Licht und Bildschirme können
+            Farben unterschiedlich wiedergeben.
+          </p>
+          <p>
+            Um <strong>Schmuckmaße und Verschlüsse prüfen</strong> zu können,
+            brauchst du Längenangaben und Nahaufnahmen. Wenn du
+            <strong>Accessoires nach Abmessungen auswählen</strong>
+            möchtest, helfen vertraute Vergleichsgegenstände nur zur groben
+            Orientierung. Bitte bei fehlenden Angaben um konkrete Maße,
+            statt sie aus der Perspektive zu schätzen.
+          </p>
+          <p>
+            Möchtest du <strong>Unterwäsche nach Material auswählen</strong>,
+            sind Zusammensetzung und Pflegehinweise hilfreicher als eine
+            reine Stilaufnahme. Auch ein sauberes Foto bestätigt keine
+            Materialeigenschaft, die im Text nicht belegt ist.
+          </p>
+        </article>
+
+        <article>
+          <span class="label">Artikel 03 · Entscheidung</span>
+          <h3>Eine kleine Auswahl mit vollständigen Kosten</h3>
+          <p>
+            Wenn du <strong>ähnliche Produktangebote vergleichen</strong>
+            willst, notiere dieselben Merkmale: Variante, Maße,
+            Materialangabe, Bildlage und ungeklärte Punkte. Um
+            <strong>Produktpreis und Versandkosten unterscheiden</strong>
+            zu können, führe beide getrennt auf. Mögliche Service- oder
+            Umrechnungskosten hängen vom Anbieter ab und gehören vor einer
+            Bestellung ebenfalls geprüft.
+          </p>
+          <p>
+            Die <strong>Produktverfügbarkeit vor der Bestellung</strong>
+            solltest du im aktuellen Eintrag erneut <strong>prüfen</strong>.
+            Notiere fehlende Informationen ausdrücklich als „offen“.
+            Ein günstiger wirkender Eintrag wird dadurch nicht automatisch
+            zur besseren Wahl.
+          </p>
+
+          <div
+            class="table-scroll"
+            role="region"
+            aria-label="Vergleichshilfe für Produktangaben"
+            tabindex="0"
+          >
+            <table>
+              <caption class="note">
+                Diese Angaben helfen bei einer nachvollziehbaren Auswahl.
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Prüffeld</th>
+                  <th scope="col">Was notieren?</th>
+                  <th scope="col">Warum?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Identität</th>
+                  <td>Artikelkennung, Farbe, Größe</td>
+                  <td>Verwechslungen zwischen Varianten vermeiden.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Passform</th>
+                  <td>Maße und Messmethode</td>
+                  <td>Vergleichbare Angaben gegenüberstellen.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bildlage</th>
+                  <td>Perspektiven und fehlende Details</td>
+                  <td>Sichtbare Merkmale von Annahmen trennen.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Kosten</th>
+                  <td>Produkt, Versand, mögliche Zusatzkosten</td>
+                  <td>Die Gesamtsumme vor Abschluss prüfen.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq-grid later" aria-labelledby="faq-title">
+      <div>
+        <span class="eyebrow">Direkte Antworten</span>
+        <h2 id="faq-title">Gut zu wissen,<br>bevor du weitergehst.</h2>
+      </div>
+
+      <div>
+        <details open>
+          <summary>Was ist ein WheeBuy spreadsheet?</summary>
+          <p>Damit ist meist eine Sammlung von Produktverweisen gemeint, die zur Recherche rund um WheeBuy verwendet wird. Die konkrete Liste kann von unabhängigen Herausgebern stammen; ein Eintrag belegt weder Verfügbarkeit noch Qualität oder Echtheit.</p>
+        </details>
+
+        <details>
+          <summary>Wohin führen die Links auf dieser Seite?</summary>
+          <p>Die zehn Kategorieverweise führen zu den jeweils benannten Kategorien auf cafans.com. Alle weiteren anklickbaren Verweise führen zur Startseite https://www.cafans.com. Diese Seite bietet keinen eigenen Checkout.</p>
+        </details>
+
+        <details>
+          <summary>Wie finde ich passende Sneaker und Hoodies?</summary>
+          <p>Vergleiche bei Sneakern die Fußlänge mit der modellspezifischen Größentabelle. Miss bei Hoodies ein gut passendes Kleidungsstück und vergleiche Brustweite, Länge und Schultern. Ein Größenbuchstabe allein reicht nicht.</p>
+        </details>
+
+        <details>
+          <summary>Beweisen QC-Fotos die Echtheit eines Produkts?</summary>
+          <p>Nein. QC-Fotos können sichtbare Details und offensichtliche Abweichungen zeigen. Sie beweisen weder Echtheit noch Haltbarkeit oder die Identität des später gelieferten Artikels.</p>
+        </details>
+
+        <details>
+          <summary>Sind Preise, Versandzeiten oder Angebote garantiert?</summary>
+          <p>Nein. Diese Seite nennt keine verbindlichen Preise, Rabatte oder Lieferfristen. Prüfe die gewünschte Variante und die aktuellen Bedingungen beim jeweiligen Anbieter, bevor du eine Bestellung abschließt.</p>
+        </details>
+
+        <details>
+          <summary>Ist dieser Ratgeber offiziell mit WheeBuy oder den Marken verbunden?</summary>
+          <p>Nein. Dies ist ein unabhängiger Ratgeber ohne behauptete offizielle Verbindung zu WheeBuy, Nike, Gucci oder Dior. Markenabbildungen dienen als visuelle Beispiele und bestätigen kein konkretes Angebot bei CAFANS.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <div>
+        <h2 id="closing-title">Dein nächster Schritt: eine passende Kategorie.</h2>
+        <p>
+          Wähle oben Schuhe, Kleidung oder Accessoires. Halte bei
+          interessanten Einträgen Maße, Variante und offene Fragen fest,
+          bevor du weiterentscheidest.
+        </p>
+      </div>
+      <a class="button" href="https://www.cafans.com">Zu CAFANS ↗</a>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>
+      Unabhängige Auswahlhilfe in deutscher Sprache. Markennamen gehören
+      ihren jeweiligen Inhabern. Produktdaten und Bedingungen können sich
+      ändern. Die Bilder dienen ausschließlich der redaktionellen
+      Veranschaulichung.
+    </p>
+    <a href="https://www.cafans.com">CAFANS Startseite ↗</a>
+  </footer>
+</body>
+</html>
